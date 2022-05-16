@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">]
+    <title>Document</title>
+</head>
+<body>
+    <h1>Agregar productos</h1>
+    <form action="/api/productos" method="post">
+        <input type="text" placeholder="Nombre del producto" class="form-control" name="nombre">
+        <input type="number" placeholder="ingrese el precio" class="form-control" name="precio">
+        <input type="url" placeholder="url imagen" class="form-control" name="url">
+        <button class="btn btn-primary">Agregar</button>
+    </form>
+</body>
+</html>
